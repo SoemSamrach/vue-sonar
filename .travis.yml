@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "soemsamrach"
 script:
-  - sonar-scanner-cli:latest
+  - sonar-scanner
 cache:
   directories:
     - '$HOME/.sonar/cache'
